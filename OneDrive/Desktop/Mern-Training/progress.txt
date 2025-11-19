@@ -1,0 +1,32 @@
+clouser:
+    A closure is a function that remembers variables from its outer scope, even after the outer function has finished executing.
+    Used for data privacy and maintaining state.
+callback:
+    A callback is a function passed as an argument to another function, to be executed later (often after some operation completes).
+    Used for asynchronous operations, event handling, etc.
+    Ex:file reading ,api calls, setTimeout,event handler
+
+-------------------------------------------------------------
+Promises and Async/await:
+A Promise represents the eventual completion(or failure) of an asynchronous operation 
+
+
+-----------------------------------------
+jquery:
+
+
+------------------------------------------
+DOM:
+Physical DOM (Document Object Model):
+    The physical DOM refers to the actual structure of HTML elements rendered by the browser.
+    It is a tree-like representation of the web page, where each node is an element, attribute, or text.
+    Manipulating the physical DOM directly (using JavaScript) can be slow and inefficient, especially for large applications.
+Virtual DOM:
+    The virtual DOM is a lightweight copy of the physical DOM, used by libraries like React.
+    It exists in memory and is not rendered directly by the browser.
+    When the state of an app changes, React updates the virtual DOM first, compares it with the previous version (using a process called "diffing"), and then updates only the changed parts in the physical DOM.
+    This makes updates faster and more efficient.
+Summary:
+
+Physical DOM: Real, browser-rendered structure.
+Virtual DOM: In-memory, optimized copy for efficient updates.
